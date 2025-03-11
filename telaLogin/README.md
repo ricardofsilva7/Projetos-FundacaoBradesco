@@ -67,5 +67,3 @@ usuario1@example.com;senha123;João Silva;2025-03-01
 
 Esse projeto é uma implementação simples de login e cadastro usando Kivy e um arquivo de texto para persistência dos dados. Pode ser expandido com novas funcionalidades e melhorias de segurança.
 ```
-
-Esta versão é mais direta e foca apenas nas informações essenciais para entender a estrutura e funcionamento do projeto.

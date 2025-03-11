@@ -113,5 +113,3 @@ class TransactionObject:
 O **PYSQL** é uma aplicação simples para gerenciar dados de clientes utilizando SQLite. O projeto serve como um bom exemplo de como integrar a interface gráfica com operações de banco de dados, oferecendo funcionalidades essenciais de CRUD.
 
 ---
-
-Esse seria um exemplo de como documentar o seu projeto em um arquivo `.md`. Caso precise de mais detalhes ou ajustes, me avise!
