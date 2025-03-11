@@ -1,0 +1,55 @@
+<CreateAccountWindow>:
+    name: "create"
+
+    BoxLayout:
+        orientation: "vertical"
+        
+        Label:
+            text: "Create Account"
+
+        TextInput:
+            id: namee
+            hint_text: "Name"
+            
+        TextInput:
+            id: email
+            hint_text: "Email"
+
+        TextInput:
+            id: password
+            hint_text: "Password"
+            password: True
+
+        Button:
+            text: "Submit"
+            on_press: root.submit()
+
+        Button:
+            text: "Back"
+            on_press: root.login()
+
+<LoginWindow>:
+    name: "login"
+
+    BoxLayout:
+        orientation: "vertical"
+
+        Label:
+            text: "Login"
+
+        TextInput:
+            id: email
+            hint_text: "Email"
+
+        TextInput:
+            id: password
+            hint_text: "Password"
+            password: True
+
+        Button:
+            text: "Login"
+            on_press: root.loginBtn()
+
+        Button:
+            text: "Create Account"
+            on_press: root.createBtn()
